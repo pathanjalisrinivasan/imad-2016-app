@@ -26,9 +26,9 @@ var articleOne={
     };
     
 function createTemplate(date){
-    $title=date.title;
-    $date=date.date;
-    $content=date.content;
+    var title=date.title;
+    var dat=date.date;
+    var content=date.content;
 var htmlTemplate=
 `
 <html>
@@ -42,7 +42,7 @@ ${title}
     <a href="/">Home</a>
     <hr>
     <h3>
-  ${date}
+  ${dat}
     </h3>
          <div>
          ${content}
