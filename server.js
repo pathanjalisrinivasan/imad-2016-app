@@ -93,13 +93,14 @@ ${title}
 `;
 return htmlTemplate;
 }
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/:articlesname', function (req, res) {
-    var articlesname = req.params.articlesname;
-  res.send(createTemplate(articles(articlesname)));
+    var articlename = req.params.articlesname;
+  res.send(createTemplate(articles[articlename]));
 });
 
 app.get('/ui/style.css', function (req, res) {
