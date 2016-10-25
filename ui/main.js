@@ -1,9 +1,9 @@
-/*console.log('Loaded!');
+console.log('Loaded!');
 var img= document.getElementById('image');
 img.onclick=function()
 {
   img.style.marginLeft='100px';  
-};*/
+};
 
 var button=document.getElementById('counter');
 button.onclick=function()
