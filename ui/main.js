@@ -8,7 +8,7 @@ img.onclick=function()
 var button=document.getElementById('counter');
 var counter=0;
 
-Button.onclick=function(){
+button.onclick=function(){
     counter++;
     var span=document.getElementById('count');
     span.innerHTML=counter.toString();
