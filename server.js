@@ -27,7 +27,7 @@ var articles = {
     },
     'article-two':{
     title:'Article two | Pathanjali',
-    date:'Sep 29 2016',
+    date:'Oct 2nd 2016',
     content:
     `
       <div>
@@ -46,7 +46,7 @@ var articles = {
     },
     'article-three':{
     title:'Article three | Pathanjali',
-    date:'Sep 29 2016',
+    date:'Oct 10th 2016',
     content:
     `
       <div>
